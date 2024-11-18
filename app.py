@@ -4,7 +4,7 @@ from cluster import clustering_insights
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def home():
     return 'Hello, World!'
 
