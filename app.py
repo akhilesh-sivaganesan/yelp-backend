@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from cluster import clustering_insights
+from cluster import clustering_insights, Vectorizer
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
@@ -33,8 +33,8 @@ def predict():
     }
     
     res = clustering_insights(new_business, 'sentiment')
-    
-    return str('heloo')
+    return jsonify(res)
+    # return str('heloo')
     # Log or process the data (for now, just return it back)
     # return jsonify(data)
 
