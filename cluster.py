@@ -12,7 +12,7 @@ import numpy as np
 from collections import Counter
 import os
 import joblib
-
+from sklearn.preprocessing import StandardScaler, Normalizer, MultiLabelBinarizer
 
 
 class Vectorizer:

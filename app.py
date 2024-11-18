@@ -3,6 +3,11 @@ from flask_cors import CORS
 from cluster import clustering_insights
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
+
+@app.route('/')
+def home():
+    return 'Hello, World!'
+
 @app.route('/api/predict', methods=['POST'])
 def predict():
     data = request.json  # Retrieve the JSON data sent by the form
