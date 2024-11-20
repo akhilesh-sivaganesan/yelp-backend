@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "ischain": 1.235019553832027,
+        "good_for_dinner": 0.7780105886803872,
+        "Mexican": 0.6850610611186531,
+        "good_for_lunch": 0.5891287332642188,
+        "good_for_breakfast": 0.5136204631430834,
+        "Food Trucks": 0.45786838601711877,
+        "Bars": 0.35951342387280427,
+        "Desserts": 0.3326366937983194,
+        "Arts & Entertainment": 0.32653572843886614,
+        "Poke": 0.3021720658425598
+    },
+    "negative_coefficients": {
+        "Creperies": -0.14369198638773037,
+        "Middle Eastern": -0.1443600684147835,
+        "Buffets": -0.14615692186191345,
+        "Vietnamese": -0.1529507540438485,
+        "Cheesesteaks": -0.1719306631840785,
+        "Greek": -0.18237273117060332,
+        "Sushi Bars": -0.1869621951254706,
+        "Fish & Chips": -0.19490906116116702,
+        "Cafes": -0.30924441526046087,
+        "Italian": -0.3212364361618026
+    }
+}

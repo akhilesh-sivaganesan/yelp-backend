@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Local Services": 0.5106642442533675,
+        "Home & Garden": 0.37065437205176544,
+        "Health & Medical": 0.3486081961199974,
+        "Home Services": 0.33664631444857346,
+        "Education": 0.25266611200098116,
+        "Professional Services": 0.23501243295162247,
+        "Children's Clothing": 0.21976152314161895,
+        "Convenience Stores": 0.21589866657090614,
+        "Cannabis Dispensaries": 0.19920813694686895,
+        "Art Galleries": 0.19859064557455228
+    },
+    "negative_coefficients": {
+        "Fashion": -0.16536431897250642,
+        "Fireplace Services": -0.16808939009186968,
+        "Bakeries": -0.1730894602388884,
+        "Mobile Phones": -0.17467474602405056,
+        "Nightlife": -0.19659990723747253,
+        "Furniture Stores": -0.2207737035743292,
+        "Bikes": -0.22920514968624062,
+        "Electronics": -0.23852012637328093,
+        "Bridal": -0.27366846046512094,
+        "Women's Clothing": -0.2820198272737497
+    }
+}

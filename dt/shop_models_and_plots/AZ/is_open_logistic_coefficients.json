@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.5904945114265382,
+        "Health & Medical": 0.45046000018570337,
+        "Home & Garden": 0.3610702820977621,
+        "Local Services": 0.3176259789416924,
+        "Automotive": 0.30226104019416106,
+        "Discount Store": 0.3008005423690999,
+        "Optometrists": 0.269674338458072,
+        "Convenience Stores": 0.26171442928249883,
+        "Cosmetics & Beauty Supply": 0.23857917020715153,
+        "Nurseries & Gardening": 0.23026939459977366
+    },
+    "negative_coefficients": {
+        "Bikes": -0.19982381096678853,
+        "Nightlife": -0.2026933320459134,
+        "Bars": -0.2042780834538059,
+        "Fashion": -0.20554763992181682,
+        "Bike Repair/Maintenance": -0.2161715242338025,
+        "Outlet Stores": -0.25904834452094855,
+        "Guns & Ammo": -0.2594953842847086,
+        "Mobile Phones": -0.26267719418042573,
+        "Bridal": -0.26587002223863054,
+        "Furniture Stores": -0.5371011668084409
+    }
+}

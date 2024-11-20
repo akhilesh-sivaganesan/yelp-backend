@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.4031860168414414,
+        "Health & Medical": 0.39649515208976355,
+        "Drugstores": 0.3783583492150658,
+        "Men's Clothing": 0.30360376434288494,
+        "Discount Store": 0.26691460592478755,
+        "Grocery": 0.2668595285727209,
+        "Nurseries & Gardening": 0.2627511761333779,
+        "Home & Garden": 0.2589512571742853,
+        "Antiques": 0.2315504348760835,
+        "Shoe Stores": 0.21202364631420662
+    },
+    "negative_coefficients": {
+        "Desserts": -0.17533579290302553,
+        "Music & DVDs": -0.18040913340873654,
+        "Art Supplies": -0.1808032790270387,
+        "Accessories": -0.19201270592217187,
+        "Framing": -0.20264269653762432,
+        "Outdoor Gear": -0.21992023027524318,
+        "Appliances": -0.23356192102325757,
+        "Outlet Stores": -0.23776758209964735,
+        "Music Venues": -0.2658735371888869,
+        "Mobile Phones": -0.32152604691518744
+    }
+}

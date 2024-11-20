@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Florists": 0.3645075650021461,
+        "Home Services": 0.3516527550206128,
+        "Health & Medical": 0.31833562663927156,
+        "Mattresses": 0.31800701569636897,
+        "Men's Clothing": 0.3086393083337475,
+        "Arts & Crafts": 0.2675642976566559,
+        "Pharmacy": 0.23046508986924052,
+        "Hotels & Travel": 0.21487540324534063,
+        "Local Services": 0.20975341194972782,
+        "Hardware Stores": 0.20770215854431842
+    },
+    "negative_coefficients": {
+        "Day Spas": -0.19905461738135882,
+        "Maternity Wear": -0.22375411179849808,
+        "Candy Stores": -0.23917340683385174,
+        "Fabric Stores": -0.2494898953919657,
+        "Vintage & Consignment": -0.2595660446759645,
+        "Used": -0.2595660446759645,
+        "Mobile Phones": -0.2878657754391433,
+        "Fashion": -0.31881009721268866,
+        "Thrift Stores": -0.35341745332880387,
+        "Women's Clothing": -0.41497736291793413
+    }
+}

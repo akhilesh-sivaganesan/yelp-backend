@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.5975979888872383,
+        "ischain": 0.47633772358999393,
+        "Health & Medical": 0.3986477728856134,
+        "Discount Store": 0.3983671651475145,
+        "Grocery": 0.35816964529260675,
+        "Mattresses": 0.3413743547055308,
+        "Optometrists": 0.3329503142704256,
+        "Men's Clothing": 0.28474000125678306,
+        "Local Services": 0.25572747400445617,
+        "Professional Services": 0.2543756239645734
+    },
+    "negative_coefficients": {
+        "Department Stores": -0.26168107390224893,
+        "American (New)": -0.26486173731448964,
+        "Mobile Phones": -0.3009033686538183,
+        "Bike Repair/Maintenance": -0.30763172879252637,
+        "Telecommunications": -0.307905013456902,
+        "Used": -0.3618386213219502,
+        "Vintage & Consignment": -0.3618386213219502,
+        "Bikes": -0.37589701148659055,
+        "Coffee & Tea": -0.3793221408255767,
+        "Antiques": -0.5012612103653337
+    }
+}

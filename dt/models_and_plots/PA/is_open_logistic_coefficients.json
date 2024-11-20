@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Coffee Roasteries": 1.9554975720392291,
+        "Food Trucks": 1.5100044380806013,
+        "Pan Asian": 1.507122274322385,
+        "Pasta Shops": 1.3200950390768282,
+        "Donuts": 1.210058798525819,
+        "Convenience Stores": 1.079528747986183,
+        "Chicken Shop": 1.0608412945787449,
+        "Brazilian": 1.0449156347761503,
+        "Shaved Ice": 1.0183498989383573,
+        "Patisserie/Cake Shop": 0.9983973209455438
+    },
+    "negative_coefficients": {
+        "Cambodian": -0.7046045700514929,
+        "Southern": -0.7781512190614678,
+        "Street Vendors": -0.8156434092870802,
+        "Moroccan": -0.8626097506273033,
+        "Buffets": -1.112267247814539,
+        "Flowers & Gifts": -1.1276513873806313,
+        "Turkish": -1.1317631555770773,
+        "Piano Bars": -1.1376182910152262,
+        "Creperies": -1.1636782804637453,
+        "Internet Cafes": -1.3523925615353922
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "ischain": 0.31008522492353724,
+        "Health & Medical": 0.1886356628242723,
+        "Eyewear & Opticians": 0.1695550489415392,
+        "Men's Clothing": 0.14513084402023488,
+        "Fashion": 0.14505894245762468,
+        "Optometrists": 0.13229962363130168,
+        "Cosmetics & Beauty Supply": 0.11902033829623129,
+        "Hardware Stores": 0.10790359520521002,
+        "Drugstores": 0.09983563461446184,
+        "Home Services": 0.09474535068293723
+    },
+    "negative_coefficients": {
+        "Sandwiches": -0.0882223638438852,
+        "Used Bookstore": -0.08873192517428102,
+        "Comic Books": -0.09596648057475651,
+        "Computers": -0.1170967327096708,
+        "Furniture Stores": -0.12976941149431484,
+        "Antiques": -0.15745581549622503,
+        "Home Decor": -0.15785474049670592,
+        "Restaurants": -0.18814482457347878,
+        "Bridal": -0.19812678342437776,
+        "Electronics": -0.20672335693203572
+    }
+}

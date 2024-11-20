@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Dive Bars": 1.4108246741290273,
+        "good_for_breakfast": 1.2079575214976208,
+        "ischain": 1.161697119073219,
+        "Venues & Event Spaces": 1.1529337900173962,
+        "Donuts": 1.099663065341404,
+        "Shaved Ice": 1.07631759926802,
+        "Cupcakes": 1.072389021422144,
+        "Beauty & Spas": 1.0177799050868397,
+        "Food Trucks": 1.0162757735151542,
+        "good_for_dinner": 1.0157249509196802
+    },
+    "negative_coefficients": {
+        "Leather Goods": -0.7092279832657733,
+        "Creperies": -0.743541324758843,
+        "Italian": -0.8227886926736264,
+        "Smokehouse": -0.8291510019574383,
+        "Chicken Shop": -0.8468955811443961,
+        "Tex-Mex": -0.8928306911668534,
+        "Poutineries": -0.948538277784476,
+        "Cajun/Creole": -0.9973922390258214,
+        "Cuban": -1.048385816555013,
+        "Hawaiian": -1.2280278713913984
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "ischain": 0.8001928187634901,
+        "good_for_dinner": 0.788952192353034,
+        "Fast Food": 0.6454236077669857,
+        "Tacos": 0.5905785799764401,
+        "Cocktail Bars": 0.5756510629505824,
+        "Chinese": 0.5646660577219095,
+        "Hotels & Travel": 0.4656845633945411,
+        "Food Trucks": 0.45649161031203844,
+        "Chicken Shop": 0.44133919098587354,
+        "Mexican": 0.4161208494474502
+    },
+    "negative_coefficients": {
+        "Modern European": -0.23512269858077137,
+        "Buffets": -0.2426663581816371,
+        "Soul Food": -0.28523263380569897,
+        "Beer": -0.28709913450036245,
+        "Wine & Spirits": -0.28709913450036245,
+        "American (New)": -0.2890441303102277,
+        "French": -0.3427183104554695,
+        "Fish & Chips": -0.3563327780182143,
+        "Cajun/Creole": -0.3570534950578577,
+        "Caribbean": -0.7051145897857523
+    }
+}

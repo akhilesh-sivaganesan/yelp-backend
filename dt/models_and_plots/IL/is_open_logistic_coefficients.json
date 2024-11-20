@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "ischain": 0.9882382519454307,
+        "Fast Food": 0.6750066936988977,
+        "good_for_dinner": 0.4745721043081676,
+        "Chinese": 0.4042896306623005,
+        "Ice Cream & Frozen Yogurt": 0.3503502419876795,
+        "good_for_lunch": 0.3011425684226312,
+        "Sports Bars": 0.24156967886968314,
+        "Salad": 0.21571173294118928,
+        "Sushi Bars": 0.20230234998769842,
+        "Active Life": 0.2016345369429422
+    },
+    "negative_coefficients": {
+        "Cocktail Bars": -0.1273397016848503,
+        "Wine Bars": -0.14703411464668195,
+        "Greek": -0.15065523788337926,
+        "Burgers": -0.16983430788105155,
+        "American (Traditional)": -0.19061181428539223,
+        "Cafes": -0.2021732700884543,
+        "Barbeque": -0.20794268980480027,
+        "Italian": -0.2960610298809583,
+        "Food Delivery Services": -0.30118481453976337,
+        "American (New)": -0.48425168229244936
+    }
+}

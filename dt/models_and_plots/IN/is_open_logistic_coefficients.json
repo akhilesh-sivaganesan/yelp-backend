@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Food Trucks": 1.2998458310648342,
+        "ischain": 1.2138280133127537,
+        "good_for_dinner": 1.1996234170693754,
+        "Seafood Markets": 1.1305382293048676,
+        "Fast Food": 1.0274784691720529,
+        "Falafel": 1.0223329447300227,
+        "Brewpubs": 1.0150889967081342,
+        "good_for_breakfast": 0.9984697720027016,
+        "International Grocery": 0.9952871737735736,
+        "Arts & Entertainment": 0.961425488441536
+    },
+    "negative_coefficients": {
+        "Afghan": -0.7640307247576377,
+        "Belgian": -0.7669705424395746,
+        "Fruits & Veggies": -0.7690732029842274,
+        "Playgrounds": -0.8104513697823177,
+        "Irish": -0.9214894337121191,
+        "Filipino": -0.9843258449474172,
+        "Do-It-Yourself Food": -1.2063171318493777,
+        "Bed & Breakfast": -1.2579684482021882,
+        "Music Venues": -1.4417685908982079,
+        "Tapas/Small Plates": -2.0058854061033236
+    }
+}

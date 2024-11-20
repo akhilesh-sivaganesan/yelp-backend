@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.7050380041122165,
+        "Local Services": 0.5174050496670405,
+        "Health & Medical": 0.5099098800444399,
+        "ischain": 0.40237111691262806,
+        "Eyewear & Opticians": 0.36430313940077413,
+        "Professional Services": 0.3487105759927592,
+        "Hobby Shops": 0.3485058755732398,
+        "Drugstores": 0.3463935134004267,
+        "Home & Garden": 0.3347030318877978,
+        "Grocery": 0.31307700757429646
+    },
+    "negative_coefficients": {
+        "Restaurants": -0.19248461218811364,
+        "Coffee & Tea": -0.19675197303226014,
+        "Outlet Stores": -0.2269401146903297,
+        "Photography Stores & Services": -0.24375100812493614,
+        "Toy Stores": -0.250349088611777,
+        "Fashion": -0.25665424554896193,
+        "Music Venues": -0.2806617118046675,
+        "Telecommunications": -0.283749780392929,
+        "Mattresses": -0.30508516440949945,
+        "Mobile Phones": -0.5340048469198538
+    }
+}

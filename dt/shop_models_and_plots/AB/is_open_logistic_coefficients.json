@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.3661988585242482,
+        "Eyewear & Opticians": 0.31194635190659087,
+        "ischain": 0.2688723804129782,
+        "Shopping Centers": 0.2640839491367702,
+        "Antiques": 0.2444688436463506,
+        "Drugstores": 0.23694185928504105,
+        "Children's Clothing": 0.22983312430462852,
+        "Gift Shops": 0.22976190210943845,
+        "Outdoor Gear": 0.22788979443744617,
+        "Leather Goods": 0.20523858118196905
+    },
+    "negative_coefficients": {
+        "Home Decor": -0.11424463832811767,
+        "Active Life": -0.1253514266288642,
+        "Public Services & Government": -0.1284436888712231,
+        "Photography Stores & Services": -0.13817486948039692,
+        "Fashion": -0.14251299207806642,
+        "Cards & Stationery": -0.16271610730684177,
+        "Skin Care": -0.1688314448376717,
+        "Massage": -0.17068447200589898,
+        "Home & Garden": -0.18055615843636696,
+        "Maternity Wear": -0.22036510435362267
+    }
+}

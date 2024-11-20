@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "ischain": 1.121658505105213,
+        "Karaoke": 1.0803241495496936,
+        "Hotels & Travel": 1.0137028790192815,
+        "Bakeries": 1.0117748657170302,
+        "Donuts": 0.9970278877759271,
+        "Cocktail Bars": 0.9524758526051293,
+        "good_for_breakfast": 0.9178815332150436,
+        "Cantonese": 0.8299271274303183,
+        "good_for_dinner": 0.8189033484700622,
+        "Casinos": 0.8031588085011275
+    },
+    "negative_coefficients": {
+        "Creperies": -0.8112825378912611,
+        "Laotian": -0.8209320717297088,
+        "Hair Salons": -0.8617603369233415,
+        "Beauty & Spas": -0.8617603369233415,
+        "Middle Eastern": -0.8969470622329843,
+        "Dance Clubs": -0.9828085127437428,
+        "Sri Lankan": -0.9939189123225108,
+        "Live/Raw Food": -1.1068826585797125,
+        "Irish Pub": -1.3020063471534211,
+        "Tex-Mex": -2.0338543434120644
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Convenience Stores": 1.2372678076867591,
+        "good_for_dinner": 1.2226109542662336,
+        "Religious Organizations": 1.1984868168416978,
+        "Festivals": 1.1830392421615883,
+        "International Grocery": 1.1683130029652473,
+        "Candy Stores": 1.1036066803377742,
+        "Imported Food": 1.0911006849731133,
+        "Fish & Chips": 1.0832147044545148,
+        "Cupcakes": 1.043695214648823,
+        "Himalayan/Nepalese": 1.0405303516169686
+    },
+    "negative_coefficients": {
+        "Fondue": -0.7992720375851838,
+        "Creperies": -0.8185718313128002,
+        "Hot Dogs": -0.8202931476703043,
+        "Filipino": -0.8366362266950622,
+        "Asian Fusion": -0.8473165256526403,
+        "Hotels": -0.8795388692727107,
+        "Buffets": -0.8833873401871001,
+        "Bagels": -0.9375162021174896,
+        "Pakistani": -0.9433080650385218,
+        "Tapas Bars": -1.5068976078094753
+    }
+}

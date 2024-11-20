@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "good_for_dinner": 0.8498718316692604,
+        "Event Planning & Services": 0.45453202079001065,
+        "Fast Food": 0.4182708196296054,
+        "good_for_lunch": 0.39822648265194405,
+        "Donuts": 0.36865280933842237,
+        "Arts & Entertainment": 0.36160714385958204,
+        "Breakfast & Brunch": 0.34869451608394864,
+        "Tacos": 0.3460739811229122,
+        "Hotels & Travel": 0.34004419233660244,
+        "Juice Bars & Smoothies": 0.32991758805743837
+    },
+    "negative_coefficients": {
+        "Steakhouses": -0.19561649498501327,
+        "American (New)": -0.2105126498081858,
+        "Taiwanese": -0.21148725182240388,
+        "French": -0.22100781455597235,
+        "German": -0.22853952370252167,
+        "Pubs": -0.24877030368809921,
+        "Food Delivery Services": -0.2585140611731247,
+        "Soup": -0.26023541022744784,
+        "Chinese": -0.26186126046600755,
+        "Greek": -0.28729106089716827
+    }
+}

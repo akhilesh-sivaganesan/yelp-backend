@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "good_for_dinner": 0.8999184284937931,
+        "ischain": 0.8371548696632504,
+        "Fast Food": 0.6040961250071304,
+        "Food": 0.469612695322972,
+        "good_for_breakfast": 0.44610002364207413,
+        "Cocktail Bars": 0.43017435834231865,
+        "Bars": 0.3484573657611914,
+        "Salad": 0.3443099712680229,
+        "Juice Bars & Smoothies": 0.32112635178193194,
+        "Nightlife": 0.31720623231190553
+    },
+    "negative_coefficients": {
+        "Meat Shops": -0.15541816212472276,
+        "Caribbean": -0.16482642543405257,
+        "Desserts": -0.1807733944514405,
+        "Hawaiian": -0.18662454163815168,
+        "Seafood": -0.22355137350481202,
+        "Mediterranean": -0.24247175050845907,
+        "Tea Rooms": -0.25235498199008705,
+        "Vietnamese": -0.32603460007482554,
+        "Barbeque": -0.34988091842781033,
+        "American (New)": -0.4134965969511748
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.6941194795741965,
+        "ischain": 0.6152196224320841,
+        "Local Services": 0.28496474193349147,
+        "Eyewear & Opticians": 0.2686619101014665,
+        "Health & Medical": 0.2650516977129717,
+        "Discount Store": 0.26098709137064585,
+        "Jewelry Repair": 0.22390421445787076,
+        "Musical Instrument Services": 0.22362005400728044,
+        "Optometrists": 0.20306648498075164,
+        "Automotive": 0.19932505593485514
+    },
+    "negative_coefficients": {
+        "Bike Repair/Maintenance": -0.2005022752821854,
+        "Tattoo": -0.20795334167480428,
+        "Mobile Phone Repair": -0.21395121313296916,
+        "Computers": -0.22114811780607577,
+        "Wholesale Stores": -0.25374171518266503,
+        "Bikes": -0.2599766311392159,
+        "Electronics Repair": -0.3073478090709152,
+        "Vintage & Consignment": -0.3835732528924635,
+        "Used": -0.3835732528924635,
+        "Mobile Phones": -0.40522335953053007
+    }
+}

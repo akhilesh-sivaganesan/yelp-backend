@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.35902379483814495,
+        "ischain": 0.31530213608752167,
+        "Grocery": 0.2426919361199874,
+        "Beauty & Spas": 0.22962916014493048,
+        "Health & Medical": 0.22017473774338106,
+        "Cosmetics & Beauty Supply": 0.17238171945859823,
+        "Kitchen & Bath": 0.15111288873931022,
+        "Optometrists": 0.14810052697133932,
+        "Local Services": 0.14661073617115963,
+        "Shoe Stores": 0.13793607210046033
+    },
+    "negative_coefficients": {
+        "Outlet Stores": -0.11676402120601491,
+        "Mountain Biking": -0.13352009072282078,
+        "Knitting Supplies": -0.14034467787716853,
+        "Gun/Rifle Ranges": -0.1569558270164906,
+        "Mobile Phones": -0.17534698047997987,
+        "Photography Stores & Services": -0.18319744688978348,
+        "Active Life": -0.19576169003356933,
+        "Mags": -0.25220830276971445,
+        "Music & Video": -0.25220830276971445,
+        "Books": -0.25220830276971445
+    }
+}

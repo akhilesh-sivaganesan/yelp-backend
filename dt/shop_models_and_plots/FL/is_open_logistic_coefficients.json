@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.6751861197334548,
+        "Discount Store": 0.5080268045327807,
+        "Drugstores": 0.44533000132170675,
+        "ischain": 0.4057168367722852,
+        "Professional Services": 0.3352589647597064,
+        "Eyewear & Opticians": 0.31148434273563264,
+        "Home & Garden": 0.30963589416924064,
+        "Pharmacy": 0.2781318278380129,
+        "Automotive": 0.2767789769182151,
+        "Cannabis Dispensaries": 0.2761056646434987
+    },
+    "negative_coefficients": {
+        "Photography Stores & Services": -0.26484844364447,
+        "Bars": -0.27061669593357235,
+        "Sports Wear": -0.3069683644253351,
+        "Specialty Food": -0.3291439202379427,
+        "Toy Stores": -0.36435245044193204,
+        "IT Services & Computer Repair": -0.3675530220155495,
+        "Mobile Phones": -0.3877397128922785,
+        "Outlet Stores": -0.44376335283738433,
+        "Flea Markets": -0.44665612358422296,
+        "Bikes": -0.545836869431412
+    }
+}

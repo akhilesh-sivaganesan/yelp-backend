@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Delis": 0.48299213190942547,
+        "good_for_dinner": 0.4341583973673241,
+        "good_for_lunch": 0.41241692783870315,
+        "ischain": 0.3745540429168713,
+        "Chinese": 0.27973554240086645,
+        "Mexican": 0.25553260880886297,
+        "Juice Bars & Smoothies": 0.21594577301827111,
+        "Caribbean": 0.19762487891361277,
+        "Bars": 0.19210549938937435,
+        "Food": 0.19149217912506758
+    },
+    "negative_coefficients": {
+        "Lounges": -0.17164704226448754,
+        "Pakistani": -0.18761944374243858,
+        "Ice Cream & Frozen Yogurt": -0.18772508734583573,
+        "Bakeries": -0.1902118589361489,
+        "Mediterranean": -0.2181322935731411,
+        "American (New)": -0.22817602148540359,
+        "Asian Fusion": -0.28406158851207,
+        "Italian": -0.3171560758863899,
+        "American (Traditional)": -0.37953371108087675,
+        "Indian": -0.41060508903342435
+    }
+}

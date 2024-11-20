@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Fast Food": 0.9070500718475568,
+        "ischain": 0.9001453540302067,
+        "good_for_dinner": 0.7766159023594535,
+        "Tacos": 0.5455042951583163,
+        "good_for_lunch": 0.4867460848973305,
+        "Seafood Markets": 0.38022043211406037,
+        "Hotels & Travel": 0.37368818133043624,
+        "Event Planning & Services": 0.35680910605434296,
+        "Chinese": 0.3446893316999171,
+        "Convenience Stores": 0.33982141787821063
+    },
+    "negative_coefficients": {
+        "Beer": -0.16813677257344675,
+        "French": -0.1841639282074748,
+        "Bagels": -0.19350195465760753,
+        "Ethnic Food": -0.1971485026739582,
+        "Fish & Chips": -0.20722957543765586,
+        "Gastropubs": -0.23924396471715395,
+        "American (New)": -0.26212611313891004,
+        "Barbeque": -0.4054866816758533,
+        "Asian Fusion": -0.4257041137456062,
+        "Tapas/Small Plates": -0.4517393584173963
+    }
+}

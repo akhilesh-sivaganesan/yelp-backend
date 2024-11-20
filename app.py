@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from cluster import clustering_insights
 from vectorizer import Vectorizer
+from dt import PredictionManager
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -39,6 +40,50 @@ def predict():
     # return str('heloo')
     # Log or process the data (for now, just return it back)
     # return jsonify(data)
+
+@app.route('/api/dt', methods=['POST'])
+def dt():
+    data = request.json
+    
+    manager = PredictionManager(
+        business_categories_file='./dt/business_df_headers.txt',
+        shopping_categories_file='./dt/shopping_df_headers.txt',
+        business_columns_file='./dt/business_columns.json',
+        shopping_columns_file='./dt/shopping_columns.json',
+        default_state='CA'
+    )
+
+    # Example JSON input (as a dictionary)
+    input_json = {
+        "businessCategories": [
+            "ATV Rentals/Tours",
+            "Vegan Restaurant"  # Example of multiple categories
+        ],
+        "businessState": "GA",
+        "city": "Atlanta",
+        "address": "848 Spring Street Northwest",
+        "latitude": "33.778027300000005",
+        "longitude": "-84.38922654305756",
+        "attributes": {
+            "AcceptsInsurance": True,
+            "AgesAllowed": "19+",
+            "Open24Hours": True,
+            "BikeParking": True,
+            "DietaryRestrictions": [
+                "Gluten-Free",
+                "Vegan"
+            ],
+            "HasTV": True,
+            "WheelchairAccessible": True
+        }
+    }
+
+    # Perform prediction
+    
+    predictions = manager.predict(input_json)
+    print(predictions)
+    return jsonify(predictions)
+
 
 if __name__ == '__main__':
     app.run()

@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "ischain": 1.1421719301441011,
+        "good_for_dinner": 0.8492201355843396,
+        "Chinese": 0.8236836596873676,
+        "Grocery": 0.5813695853247428,
+        "Food Trucks": 0.5211722862291834,
+        "Bubble Tea": 0.5055880519793218,
+        "Irish Pub": 0.4884198353604711,
+        "Cocktail Bars": 0.48358720965237356,
+        "Coffee Roasteries": 0.44798711247288603,
+        "Chicken Shop": 0.42571431259311315
+    },
+    "negative_coefficients": {
+        "British": -0.3262001630449275,
+        "Jazz & Blues": -0.3364177283800155,
+        "French": -0.36103043571934923,
+        "Italian": -0.364111939139929,
+        "Mediterranean": -0.4098321142191028,
+        "Tapas Bars": -0.4108752003956456,
+        "Indian": -0.41143734774335505,
+        "Barbeque": -0.4138473453896117,
+        "Vegetarian": -0.4329992746344772,
+        "Buffets": -0.5874349832795104
+    }
+}

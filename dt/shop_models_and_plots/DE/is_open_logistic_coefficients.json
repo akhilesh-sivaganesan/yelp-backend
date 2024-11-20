@@ -1,0 +1,26 @@
+{
+    "positive_coefficients": {
+        "Home Services": 0.3438814805413496,
+        "Food": 0.3084106216743979,
+        "Beauty & Spas": 0.2126102647205553,
+        "Cosmetics & Beauty Supply": 0.15453519686869124,
+        "Grocery": 0.14345032466168975,
+        "Health & Medical": 0.13645281286700878,
+        "Florists": 0.13561473258661316,
+        "Men's Clothing": 0.13412903583873745,
+        "Eyewear & Opticians": 0.1070645506599056,
+        "Building Supplies": 0.09224212578767661
+    },
+    "negative_coefficients": {
+        "Sports Wear": -0.13287018270535297,
+        "Education": -0.13478219675627798,
+        "Home & Garden": -0.13608784111765412,
+        "Nightlife": -0.1396191167117541,
+        "Arts & Crafts": -0.14360439595813626,
+        "Appliances": -0.14536183359730254,
+        "Toy Stores": -0.1612075895385865,
+        "Bridal": -0.18485501217455297,
+        "Electronics": -0.24109647967197098,
+        "Computers": -0.2707783373753653
+    }
+}
