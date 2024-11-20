@@ -17,22 +17,29 @@ def predict():
     
     # process input to work with our existing model
     # --- Example Usage: Define a New Business ---
+    # new_business = {
+    #     'text': "good",
+    #     'categories': "Cafes, Coffee, Breakfast",
+    #     'latitude': 37.02,
+    #     'longitude': -88.8104,
+    #     'city': "San Francisco",
+    #     'hours': {
+    #         "Monday": "07:00-18:00",
+    #         "Tuesday": "07:00-18:00",
+    #         "Wednesday": "07:00-18:00",
+    #         "Thursday": "07:00-18:00",
+    #         "Friday": "07:00-18:00",
+    #         "Saturday": "08:00-16:00",
+    #         "Sunday": "08:00-16:00"
+    #     },
+    #     "stars": None,
+    # }
+    
     new_business = {
-        'text': "good",
-        'categories': "Cafes, Coffee, Breakfast",
-        'latitude': 37.02,
-        'longitude': -88.8104,
-        'city': "San Francisco",
-        'hours': {
-            "Monday": "07:00-18:00",
-            "Tuesday": "07:00-18:00",
-            "Wednesday": "07:00-18:00",
-            "Thursday": "07:00-18:00",
-            "Friday": "07:00-18:00",
-            "Saturday": "08:00-16:00",
-            "Sunday": "08:00-16:00"
-        },
-        "stars": None,
+        'text': data.get('text'),
+        'categories': data.get('categories'),
+        'latitude': data.get('latitude'),
+        'longitude': data.get('longitude'),
     }
     
     res = clustering_insights(new_business, 'sentiment')
@@ -54,39 +61,46 @@ def dt():
     )
 
     # Example JSON input (as a dictionary)
-    input_json = {
-        "businessCategories": [
-            "ATV Rentals/Tours",
-            "Vegan Restaurant"  # Example of multiple categories
-        ],
-        "businessState": "GA",
-        "city": "Atlanta",
-        "address": "848 Spring Street Northwest",
-        "latitude": "33.778027300000005",
-        "longitude": "-84.38922654305756",
-        "attributes": {
-            "AcceptsInsurance": True,
-            "AgesAllowed": "19+",
-            "Open24Hours": True,
-            "BikeParking": True,
-            "DietaryRestrictions": [
-                "Gluten-Free",
-                "Vegan"
-            ],
-            "HasTV": True,
-            "WheelchairAccessible": True
-        }
+    # input_json = {
+    #     "businessCategories": data.get('categories'),
+    #     "businessState": data.get('state'),
+    #     "city": data.get('city'),
+    #     "address": "848 Spring Street Northwest",
+    #     "latitude": "33.778027300000005",
+    #     "longitude": "-84.38922654305756",
+    #     "attributes": {
+    #         "AcceptsInsurance": True,
+    #         "AgesAllowed": "19+",
+    #         "Open24Hours": True,
+    #         "BikeParking": True,
+    #         "DietaryRestrictions": [
+    #             "Gluten-Free",
+    #             "Vegan"
+    #         ],
+    #         "HasTV": True,
+    #         "WheelchairAccessible": True
+    #     }
+    # }
+    
+    data_converted_to_input = {
+        "businessCategories": data.get('businessCategories'),
+        "businessState": data.get('businessState'),
+        "city": data.get('city'),
+        "address": data.get('address'),
+        "latitude": data.get('latitude'),
+        "longitude": data.get('longitude'),
+        "attributes": data.get('attributes')
     }
 
     # Perform prediction
     
-    predictions = manager.predict(input_json)
+    predictions = manager.predict(data_converted_to_input)
     print(predictions)
     return jsonify(predictions)
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5002)
     
 
 
