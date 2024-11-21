@@ -48,13 +48,24 @@ def clustering_insights(new_business, classification_feature):
         with open(filename, 'rb') as f:
             return pickle.load(f)
         
-    stored_classifier = load(f'./clustering/next_classifiers/stars(0.017-500)-{classification_feature}.pkl')
+    stored_classifier = load(f'./clustering/clustered_classifiers/stars(0.017-500)-{classification_feature}.pkl')
     stored_vectorizer = load('./clustering/updated_vectorizer2.pkl')
     classification_scaler = joblib.load(f'./clustering/scaler_{classification_feature}.joblib')
     
     classification = classify_by_closest_cluster(new_business, stored_classifier['avg_features'], [classification_feature], stored_vectorizer, classification_scaler)
     insights = stored_classifier['insights'][stored_classifier['insights']['cluster'] == classification]
-    return insights.to_dict()
+    
+    # only send the business ids that are part of the cluster
+    filtered_business_ids = [
+        business_id for business_id, cluster in zip(stored_classifier['business_ids'], stored_classifier['clusters']) 
+        if cluster == classification
+    ]
+
+    res = {
+        "insights": insights.to_dict(),
+        "business_ids": filtered_business_ids
+    }
+    return res
 
 
 

@@ -3,6 +3,9 @@ from flask_cors import CORS
 from cluster import clustering_insights
 from vectorizer import Vectorizer
 from dt import PredictionManager
+import pandas
+# from pandas import DataFrame
+# import pandas.core.indexes.numeric
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -95,7 +98,7 @@ def dt():
     # Perform prediction
     
     predictions = manager.predict(data_converted_to_input)
-    print(predictions)
+    # print(predictions)
     return jsonify(predictions)
 
 
